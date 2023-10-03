@@ -18,9 +18,6 @@
         font-size: 0.9rem;
       }
     }
-    .header__link {
-      margin-left: 4.1vw;
-    }
   }
 }
 .header__item--spec {
@@ -32,11 +29,10 @@
   margin-right: 4.1vw;
   gap: 0.8vw;
   .buttons {
-    padding: 0.1vw 3vw 0.1vw 3vw;
+    width: 15vw;
+    padding: 1vw 2vw;
     font-size: 16px;
-    .buttons__link {
-      font-weight: 600;
-    }
+    font-weight: 600;
   }
 }
 
@@ -48,7 +44,6 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    width: 49, 6vw;
     .header-container__title {
       font-size: 4rem;
       font-weight: 600;
@@ -65,19 +60,21 @@
       line-height: 25px;
     }
   }
-  .button-nav {
+  .button__nav {
     display: flex;
     gap: 0.8vw;
-    margin-bottom: 2vw;
-    .button-nav__button-main {
-      width: 12.8vw;
-      padding: 2vw 0;
-      font-size: 16px;
-      .button-nav__link {
-        font-weight: 600;
-      }
+    .button-nav {
+      width: 15vw;
+      padding: 1.5vw;
+      margin-bottom: 3vw;
+      font-weight: 600;
+      font-size: 1.1rem;
     }
   }
+}
+.header-container__wrapper-img {
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .banner {
@@ -101,5 +98,6 @@
     justify-content: space-around;
     width: 100vw;
     margin-bottom: 9vw;
+    overflow-x: hidden;
   }
 }

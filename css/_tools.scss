@@ -29,6 +29,9 @@ a {
   color: inherit;
 }
 
+a:hover {
+  text-decoration: underline;
+}
 .btn {
   text-align: center;
   background-color: $primary-color;
@@ -37,4 +40,7 @@ a {
 .btn:hover {
   color: $primary-color;
   background-color: $secondary-color;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: all 0.7s ease-in-out;
 }
